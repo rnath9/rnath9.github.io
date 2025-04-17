@@ -1,0 +1,86 @@
+.aboutPage {
+  padding-top: 80px;
+  padding: 80px 2rem 2rem;
+  min-height: 100vh;
+  color: #fefefe;
+  background: linear-gradient(#6B5B62, #7A666B); 
+}
+  /* top section */
+  .introSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  
+  .portrait {
+    width: 250px;
+    height: 250px;
+    padding-top: 30px;
+    object-position: -25px center;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  
+  .bio {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .bio h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .bio p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  /* gallery section */
+  .captionNote {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .gallerySection {
+    text-align: center;
+  }
+  
+  .galleryItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .galleryItem img {
+    width: 100%;
+    max-width: 300px;     /* hard limit width */
+    max-height: 300px;    /* hard limit height */
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  .galleryGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+  
+  
+  .caption {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,44 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #EAEAEA;
+    text-align: center;
+    margin: 0;
+    background: linear-gradient(#6B5B62, #7A666B); 
+  }
+  
+  .name {
+    font-size: 3rem; 
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin: 10px 10px 0; 
+    user-select: none;
+  }
+
+  .clickableSubtitle {
+    cursor: pointer; 
+    color: #FFCAAF;
+    font-weight: normal; 
+    transition: font-weight 0.2s ease;
+  }
+  
+  .clickableSubtitle:hover {
+    font-weight: bold;
+  }
+  
+
+  .exploreText {
+    font-size: 1.1rem;
+    margin-top: 30px;
+    text-align: center;
+    max-width: 80%;
+    line-height: 1.5;
+  }
+  
