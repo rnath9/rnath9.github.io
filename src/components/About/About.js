@@ -19,7 +19,7 @@ const About = () => {
         <div className={styles.bio}>
           <h2>A little bit about me:</h2>
           <p>
-            I am an Electrical & Computer Engineer interested in building scalable infrastructure for machine learning and networking. A lot of my expertise lies with object-oriented programming (Java, C++), and also lower-level embedded systems work with RPis and FPGAs (C, Python, Verilog). By extension, I have worked on lots of projects in both of these domains for companies like Google and AWS. As my work is designed for scalability, a lot of the code I write is heavily optimized and readable to allow for future development and improvements. Feel free to check out my public-facing work on my Github!
+            I am an Electrical & Computer Engineer interested in building scalable infrastructure for machine learning and networking. A lot of my expertise lies with object-oriented programming (Java, C++), and also lower-level embedded systems work with RPis and FPGAs (C, Python, Verilog). By extension, I have worked on lots of projects in both of these domains for companies like Google and AWS. As my work is designed for scalability, a lot of the code I write is heavily optimized and readable to allow for future development and improvements. Feel free to check out my public-facing work on my Github, or contact me at rrn9@cornell.edu!
           </p>
         </div>
       </section>
